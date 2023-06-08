@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="vue.min.js"></script>
+    <script src="axios.min.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <script>
+        var vue=new Vue({
+            el:"#app",
+            data:{},
+            methods:{
+                axiosmethods(){
+                    axios.get("地址").then(res=>{}).catch()
+                }
+            }
+        })
+    </script>
+</body>
+</html>
